@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav_bar">
+        <div class="left">
+             <img src="https://tse4.mm.bing.net/th?id=OIP.2l4uLnbB1_ySjWxkKLXg0AHaCe&pid=Api&P=0&h=180">
+            <input type="text" placeholder="Search for movies, shows">
+        </div>
+
+        <div class="right">
+            <h4 class="loc">Hubbli</h4>
+            <button>Sign In</button>
+            <i class="menu"></i><i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <nav class="sec-nav">
+        <div class="s-left">
+            <p>Movie</p>
+            <p>Stream</p>
+            <p>Events</p>
+            <p>Plays</p>
+            <p>Sports</p>
+            <p>Activities</p>
+            <p>Buzz</p>
+        </div>
+        <div class="s-left">
+            <p>ListYourShows</p>
+            <p>Corporates</p>
+            <p>Offers</p>
+            <p>GiftCrds</p>
+        </div>
+    </nav>
+
+    <div class="main">
+        <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1730206914438_bemisaalwebshowcase1240x300.jpg">
+    </div>
+
+    <div class="container">
+        <h2>Recommended Movies</h2>
+        <div class="card">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4yLzEwICA2LjVLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00379650-thvrxsqkqc-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny8xMCAgNDYuMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00354858-ayxrjajhcy-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni4yLzEwICA1Ni4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICA1OC4ySyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00388085-szuygyrbqh-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgNTNLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00383474-klabltwbvz-portrait.jpg">
+        </div>    
+    </div>
+
+    <div class="paragraphs">
+        <button class="foot-text1">
+            <i class="fa-solid fa-thumbs-up" style="color: #01fe2b;"></i> 500K Likes
+            <h2>BHAGEERA</h2>
+        </button>
+        <button class="foot-text2">
+            <i class="fa-solid fa-thumbs-up" style="color: #01fe2b;"></i> 124K Likes
+            <h2>SINGHAM AGAIN</h2>
+        </button>
+        <button class="foot-text3">
+            <i class="fa-solid fa-thumbs-up" style="color: #01fe2b;"></i> 1.5K Likes
+            <h2>BHOOL BHULAIYAA</h2>
+        </button>
+        <button class="foot-text4">
+            <i class="fa-solid fa-thumbs-up" style="color: #01fe2b;"></i> 44K Likes
+            <h2>AMARAN</h2>
+        </button>
+        <button class="foot-text5">
+            <i class="fa-solid fa-thumbs-up" style="color: #01fe2b;"></i> 200K Likes
+            <h2>VENOM THE LAST DANCE</h2>
+        </button>
+  
+    </div>
+
+    <div class="banner">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png">
+    </div>
+    <div class="container">
+        <h2>Best of Live Events</h2>
+        <div class="card">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NCBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/bmshp-desktop-kids-collection-202404190106.png">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NiBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-OCBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png">
+        </div>    
+    </div>
+
+    <div class="premiere">
+        <h2>PREMIERE</h2>
+        <div class="cards">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00393226-jsvqgmqfbt-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00405555-ttqjkjhkks-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00398661-qvhefzbeuc-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00370489-unxypwbqex-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00389476-byhhdpjbpk-portrait.jpg">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <img src="https://in.bmscdn.com/webin/common/icons/logo.svg">
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+</body>
+</html>
