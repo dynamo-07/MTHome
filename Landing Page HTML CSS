@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Book My Show</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .nav_bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(17, 17, 17);
+        }
+        .nav_bar .left {
+            display: flex;
+            align-items: center;
+        }
+        .nav_bar .left img {
+            width: 80px;
+            margin-right: 15px;
+        }
+        .nav_bar .left input {
+            padding: 5px;
+            width: 250px;
+        }
+        .nav_bar .right {
+            display: flex;
+            align-items: center;
+        }
+        .nav_bar .right h4 {
+            margin-right: 20px;
+        }
+        .nav_bar .right button {
+            margin-right: 15px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(244, 69, 98);
+            color: white;
+            cursor: pointer;
+        }
+        .sec-nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(26, 26, 48);
+            color: white;
+        }
+        .sec-nav p {
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .sec-nav p:hover {
+            color: rgb(244, 70, 99);
+            font-weight: 600;
+        }
+        .main img {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .container h2 {
+            margin-bottom: 15px;
+        }
+        .container .card {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 10px 0;
+        }
+        .container .card img {
+            width: 200px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+        .premiere {
+            background-color: rgb(8, 8, 19);
+            color: white;
+            padding: 30px;
+            margin-top: 45px;
+        }
+        .premiere .cards {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 10px 0;
+        }
+        .premiere .cards img {
+            width: 200px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+        .footer {
+            background-color: rgb(58, 57, 57);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+        .footer .icons i {
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .footer .icons i:hover {
+            color: rgb(196, 22, 22);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="nav_bar">
+        <div class="left">
+            <img src="https://www.codester.com/static/uploads/items/000/030/30449/preview-xl.jpg">
+            <input type="text" placeholder="Search for movies, shows">
+        </div>
+        <div class="right">
+            <h4>Hubbli</h4>
+            <button>Sign In</button>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="sec-nav">
+        <p>Movie</p>
+        <p>Stream</p>
+        <p>Events</p>
+        <p>Plays</p>
+        <p>Sports</p>
+        <p>Activities</p>
+        <p>Buzz</p>
+        <p>List Your Shows</p>
+        <p>Corporates</p>
+        <p>Offers</p>
+        <p>Gift Cards</p>
+    </nav>
+
+    <!-- Main Banner -->
+     
+    <div class="main">
+        <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1730206914438_bemisaalwebshowcase1240x300.jpg" alt="Main Banner">
+    </div>
+
+    <!-- Recommended Movies Section -->
+    <div class="container">
+        <h2>Recommended Movies</h2>
+        <div class="card">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4yLzEwICA2LjVLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00379650-thvrxsqkqc-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny8xMCAgNDYuMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00354858-ayxrjajhcy-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni4yLzEwICA1Ni4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICA1OC4ySyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00388085-szuygyrbqh-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgNTNLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00383474-klabltwbvz-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICAyNi4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00386123-tasxvalcdv-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni45LzEwICAyNC4ySyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00412521-tsxjhppkfp-portrait.jpg">
+        </div>
+    </div>
+
+    <!-- Premiere Section with Horizontal Scroll -->
+    <div class="premiere">
+        <h2>PREMIERE</h2>
+        <div class="cards">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00393226-jsvqgmqfbt-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00405555-ttqjkjhkks-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00398661-qvhefzbeuc-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00370489-unxypwbqex-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00389476-byhhdpjbpk-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00393536-qemhuxjrph-portrait.jpg">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00370489-unxypwbqex-portrait.jpg">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; Book My Show</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+</body>
+</html>
